@@ -30,7 +30,7 @@ jobs:
 
       - name: Sphinx build
         run: |
-          uv run sphinx-build -M . _build
+          uv run sphinx-build -M html . _build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
