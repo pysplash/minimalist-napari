@@ -1,7 +1,9 @@
 napari==0.6.0a0
+pyqt6
 Sphinx
 pydata-sphinx-theme
 myst_nb
+jupyter
 sphinx-autobuild
 sphinx-tabs
 sphinx-tags
